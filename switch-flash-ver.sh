@@ -1,3 +1,5 @@
+!#/bin/bash
+
 echo "Switch Flash script"
 echo "Input 'k' to exit"
 
