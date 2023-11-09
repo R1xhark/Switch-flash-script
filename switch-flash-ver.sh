@@ -1,10 +1,10 @@
-!#/bin/bash
+#!/bin/bash
 
 echo "Switch Flash script"
 echo "Input 'k' to exit"
 
 while true; do
-    read -p "Enter Switch SN: " sn
+    read p "Enter Switch SN: " sn
     read -p "Enter Switch IP: " ip
 
     if [[ "$ip" == 'k' || "$sn" == 'k' ]]; then
