@@ -14,22 +14,22 @@ Before using this script, ensure that you have the following:
 
 1. Clone the repository:
 
-   \`\`\`bash
+  `
    git clone https://github.com/your-username/switch-flash-script.git
    cd switch-flash-script
-   \`\`\`
+   `
 
 2. Make the script executable:
 
-   \`\`\`bash
+  `
    chmod +x switch_flash_script.sh
-   \`\`\`
+   `
 
 3. Run the script:
 
-   \`\`\`bash
+   `bash
    ./switch_flash_script.sh
-   \`\`\`
+    `
 
 4. Follow the on-screen prompts to enter the Switch SN and IP.
 
