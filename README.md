@@ -27,7 +27,7 @@ Before using this script, ensure that you have the following:
 
 3. Run the script:
 
-   `bash
+   `
    ./switch_flash_script.sh
     `
 
