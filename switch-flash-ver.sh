@@ -12,7 +12,7 @@ while true; do
     return $?
 }
 
-if screen -ls | grep -q *"$sn"*; then
+if screen -ls | grep -q ".*$sn*."; then
     echo "Switch Flash already in progress."
 else
     if is_unit_up "ip"; then
