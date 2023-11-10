@@ -6,6 +6,16 @@ echo "Input 'k' to exit"
 while true; do
     read p "Enter Switch SN: " sn
     read -p "Enter Switch IP: " ip
+    
+    is_unit_up(){
+    ping -c 1 "$1" &> /dev/null
+    return $?
+}
+
+if screen -ls | grep -q *"$sn"*; then
+    echo "Switch Flash already in progress."
+else
+    if is_unit_up "ip"; then
 
     if [[ "$ip" == 'k' || "$sn" == 'k' ]]; then
         echo "Exiting the script."
